@@ -12,9 +12,7 @@ export default class CandyList extends Component {
                     of type
             {
                 this.props.candyTypes
-                    .find(type => type.id === {candie.candyTypeId})
-                    .name
-            }
+                    .find(type => type.id === candie.candyTypeId).type            }
                 </div>
             )
         }
