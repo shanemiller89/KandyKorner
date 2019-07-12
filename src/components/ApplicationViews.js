@@ -45,7 +45,7 @@ export default class ApplicationViews extends Component {
                     return <StoreList stores={this.state.stores} />
                 }} />
                 <Route path="/candies" render={(props) => {
-                    return <CandyList candies={this.state.candies} />
+                    return <CandyList candies={this.state.candies} candyTypes={this.state.candyTypeArray} />
                 }} />
                 <Route path="/employees" render={(props) => {
                     return <EmployeeList employees={this.state.employees} />
